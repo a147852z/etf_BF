@@ -140,3 +140,15 @@
 =============== Oct 6, 2022 (CST) ===============
 09:55:39.370950 db@close closing
 09:55:39.371067 db@close done T·117.124µs
+=============== Oct 6, 2022 (CST) ===============
+10:28:49.757797 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:28:49.758068 version@stat F·[2 1] S·505B[324B 181B] Sc·[0.50 0.00]
+10:28:49.758098 db@open opening
+10:28:49.758169 journal@recovery F·1
+10:28:49.763925 journal@recovery recovering @32
+10:28:49.766728 memdb@flush created L0@34 N·1 S·162B "loc..seq,v22":"loc..seq,v22"
+10:28:49.770727 version@stat F·[3 1] S·667B[486B 181B] Sc·[0.75 0.00]
+10:28:49.785760 db@janitor F·6 G·0
+10:28:49.785831 db@open done T·27.721895ms
+11:13:39.037986 db@close closing
+11:13:39.038100 db@close done T·113.021µs
