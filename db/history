@@ -9,3 +9,7 @@ eth.getBlock("22")
 eth.getBlockByNumber("22")
 eth.getBlockByNumber(22)
 eth.getBlockByNumber("21")
+d3
+miner.setEtherbase(eth.accounts[0])
+miner.start(1)
+miner.stop()
