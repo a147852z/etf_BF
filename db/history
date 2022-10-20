@@ -15,3 +15,5 @@ miner.start(1)
 miner.stop()
 miner.start(1)
 miner.stop()
+admin.addPeer("enode://5de255c5d41bfc9bd420ce73a7866b5aab0bb3327cf33c34b9bb545ef3460a9e3ebbca28384ef38971601f4966a894d53d1a9c7b513a8983cc6560afe393605f@10.0.0.1:30303")
+admin.nodeInfo.enode
